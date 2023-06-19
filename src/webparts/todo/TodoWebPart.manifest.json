@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "acbc7f18-e38b-40c1-bf84-3e9eea368ca5",
+  "alias": "ReceptionWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.6",
+  "manifestVersion": 2,
+  "supportsFullBleed": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "acbc7f18-e38b-40c1-bf84-3e9eea368ca5",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Reception" },
+    "description": { "default": "Webpart for managing visitors" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Reception properties"
+    }
+  }]
+}

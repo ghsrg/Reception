@@ -1,0 +1,15 @@
+.todo {
+  padding: 28px 40px;
+
+  .topRow {
+    position: relative;
+  }
+
+  .todoHeading {
+    display: inline-block;
+  }
+
+  @media (max-width: 100vw) {
+    padding: 0px;
+  }
+}

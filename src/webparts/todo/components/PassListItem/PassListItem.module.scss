@@ -1,0 +1,36 @@
+@import "~office-ui-fabric-react/dist/sass/Fabric";
+
+.passListItem {
+    border: 1px $ms-color-neutralTertiaryAlt solid;
+
+    .itemTaskRow {
+      padding: 1px 2px 1px 2px;
+
+      @media (max-width: 100vw) {
+        padding: 2px 2px 2px 2px;
+      }
+
+      .deleteButton {
+        &:hover, &:focus {
+          color: $ms-color-themePrimary;
+        }
+      }
+
+      .checkbox {
+        :global .ms-Label {
+          color: $ms-color-neutralPrimary;
+          font-size: 18px;
+          padding: 0 0 0 36px;
+        }
+      }
+
+      &.isCompleted {
+        background-color: $ms-color-neutralLighter;
+      }
+    }
+   
+
+  }
+  .over:hover {
+    box-shadow: inset 0 0 0 2px #828185;
+  }
